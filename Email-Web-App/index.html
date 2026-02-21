@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font: 24px;
+        font-family: sans-serif;
+        font-weight: 600;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 80px 300px 1fr 150px;
+        grid-template-rows: 80px 100%;
+        text-align: center;
+      }
+
+      nav,
+      main,
+      section,
+      aside {
+        padding-top: 24px;
+      }
+      nav {
+        background-color: #305171;
+        color: #fff;
+        grid-row: 1/-1;
+      }
+
+      menu {
+        background-color: #4c6ef5;
+        color: #fff;
+        grid-column: 2/-1;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 16px;
+        padding: 0 40px;
+      }
+
+      button:last-child {
+        background-color: #f03e3e;
+        margin-left: auto;
+      }
+
+      button {
+        color: #fff;
+        background-color: #4263eb;
+        padding: 8px 12px;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+        font-size: 18px;
+        border-radius: 8px;
+      }
+
+      section {
+        background-color: #adb5bd;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: flex-start;
+        align-items: stretch;
+        padding: 40px;
+        overflow-y: scroll;
+      }
+
+      .inbox {
+        background-color: #868e96;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+      }
+
+      aside {
+        background-color: #adb5bd;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>NAV</nav>
+    <menu>
+      <button href="#" class="link">New</button>
+      <button href="#" class="link">Reply</button>
+      <button href="#" class="link">Forward</button>
+      <button href="#" class="link">Mark Unread</button>
+      <button href="#" class="link">Trash</button>
+    </menu>
+    <section>
+      <div class="inbox">Email 1</div>
+      <div class="inbox">Email 2</div>
+      <div class="inbox">Email 3</div>
+      <div class="inbox">Email 4</div>
+      <div class="inbox">Email 5</div>
+      <div class="inbox">Email 6</div>
+      <div class="inbox">Email 7</div>
+      <div class="inbox">Email 8</div>
+      <div class="inbox">Email 9</div>
+      <div class="inbox">Email 10</div>
+    </section>
+    <main>Email View</main>
+    <aside>Additional Info</aside>
+  </body>
+</html>
