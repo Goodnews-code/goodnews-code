@@ -1,0 +1,95 @@
+.interest {
+  position: relative;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.interest__orb {
+  width: 500px;
+  height: 500px;
+  top: 0;
+  right: -150px;
+}
+
+.interest__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.interest__header .section-subtitle {
+  margin: 0 auto;
+}
+
+.interest__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+/* Card */
+.interest-card {
+  padding: 36px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.interest-card__icon {
+  font-size: 2.4rem;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--int-color) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--int-color) 25%, transparent);
+  margin-bottom: 4px;
+  transition: transform var(--transition-med);
+}
+
+.interest-card:hover .interest-card__icon {
+  transform: scale(1.12) rotate(-4deg);
+}
+
+.interest-card__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.interest-card__desc {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.75;
+  font-family: var(--font-secondary);
+  flex: 1;
+}
+
+.interest-card__line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  opacity: 0;
+  transition: opacity var(--transition-med);
+}
+
+.interest-card:hover .interest-card__line {
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .interest__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .interest__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
