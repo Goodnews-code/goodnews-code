@@ -39,16 +39,7 @@ export default function Skills() {
                 {skill.icon}
               </div>
               <div className="skill-card__content">
-                <div className="skill-card__top">
-                  <span className="skill-card__name">{skill.name}</span>
-                  <span className="skill-card__level">{skill.level}%</span>
-                </div>
-                <div className="skill-card__bar">
-                  <div
-                    className="skill-card__bar-fill"
-                    style={{ '--width': `${skill.level}%`, '--color': skill.color }}
-                  />
-                </div>
+                <span className="skill-card__name">{skill.name}</span>
               </div>
             </div>
           ))}
