@@ -1,5 +1,16 @@
 # Goodnews Portfolio
 
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</div>
+
+<br />
+
 Welcome to the **Goodnews Portfolio**! This repository contains the source code for my personal portfolio website, designed to showcase my skills, projects, and experiences as a Web Developer.
 
 ## 👨‍💻 About Me
@@ -10,13 +21,14 @@ Hello! I'm **Jesutofunmi Egbewale** (also known as Goodnews), a passionate Web D
 - 🚀 Participant in the August Cohort at Power Learn Project, learning hands-on Website Development.
 - 💡 Interested in Web Development, Artificial Intelligence, and Geospatial Technologies.
 
-## 🛠️ Skills & Technologies
+## 🛠️ Built With
 
-This project and my broader skill set include:
+This project is built using modern web technologies for optimal performance and aesthetics:
 
-- **Web Design & Frontend:** HTML5, CSS3, JavaScript
-- **Backend Languages:** Python
-- **Version Control:** Git & GitHub
+- **Frontend Core:** **React 18** with **Vite** for blazing fast development.
+- **Styling:** **Vanilla CSS** with a custom Design System (Glassmorphism).
+- **Animations:** Custom **Intersection Observer** hooks for scroll reveal effects.
+- **Assets:** Optimized images and vector icons.
 
 ## 📂 Project Structure
 
