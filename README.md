@@ -7,11 +7,20 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  
+  <br />
+  <br />
+
+  <a href="https://goodnews-code.vercel.app/">
+    <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
 </div>
 
 <br />
 
 Welcome to the **Goodnews Portfolio**! This repository contains the source code for my personal portfolio website, designed to showcase my skills, projects, and experiences as a Web Developer.
+
+**✨ Live Site:** [goodnews-code.vercel.app](https://goodnews-code.vercel.app/)
 
 ## 👨‍💻 About Me
 

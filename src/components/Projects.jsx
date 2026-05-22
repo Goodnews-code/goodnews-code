@@ -7,7 +7,7 @@ const projects = [
     description: 'A personal portfolio website showcasing my skills, projects, and journey as a web developer. Built with HTML, CSS, and JavaScript.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     image: '/Image/Website.jpg',
-    live: 'https://goodnews-code.github.io/Goodnews-portfolio',
+    live: 'https://goodnews-code.vercel.app/',
     github: 'https://github.com/Goodnews-code',
     featured: true,
   },
