@@ -62,7 +62,7 @@ export default function Hero() {
           <div className="hero__avatar-card glass-card">
             <div className="hero__avatar-ring">
               <img
-                src="/Image/Goodnews-low.jpeg"
+                src="/Image/Goodnews.jpeg"
                 alt="Jesutofunmi Egbewale - Web Developer"
                 className="hero__avatar-img"
                 onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }}

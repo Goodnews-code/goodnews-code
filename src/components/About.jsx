@@ -22,7 +22,7 @@ export default function About() {
           <div className="about__img-wrapper">
             <div className="about__img-glow" />
             <img
-              src="/Image/Goodnews-low.jpeg"
+              src="/Image/Goodnews.jpeg"
               alt="Jesutofunmi Egbewale"
               className="about__img"
               onError={(e) => {
