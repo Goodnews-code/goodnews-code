@@ -26,7 +26,7 @@ Welcome to the **Goodnews Portfolio**! This repository contains the source code 
 
 Hello! I'm **Jesutofunmi Egbewale** (also known as Goodnews), a passionate Web Developer focused on both Frontend and Backend development. I am currently based in Osun State, Nigeria. 
 
-- 🎓 A Graduate of Obafemi Awolowo University (OAU), studying Surveying and Geoinformatics.
+- 🎓 A Graduate of Obafemi Awolowo University (OAU), Surveying and Geoinformatics.
 - 🚀 Participant in the August Cohort at Power Learn Project, learning hands-on Website Development.
 - 💡 Interested in Web Development, Artificial Intelligence, and Geospatial Technologies.
 
