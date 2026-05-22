@@ -12,12 +12,15 @@ const navLinks = [
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
+  const [showCTA, setShowCTA] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [active, setActive] = useState('home')
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 40)
+      const scrollPos = window.scrollY
+      setScrolled(scrollPos > 40)
+      setShowCTA(scrollPos > window.innerHeight * 0.2)
     }
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
@@ -54,7 +57,7 @@ export default function Navbar() {
         </ul>
 
         {/* CTA */}
-        <a href="#contact" className="btn-primary navbar__cta" onClick={() => handleNavClick('#contact')}>
+        <a href="#contact" className={`btn-primary navbar__cta ${showCTA ? 'navbar__cta--visible' : ''}`} onClick={() => handleNavClick('#contact')}>
           Hire Me ✦
         </a>
 
