@@ -47,6 +47,20 @@
 .contact__cta-emoji {
   font-size: 2.8rem;
   line-height: 1;
+  display: inline-block;
+  animation: wave 2.5s infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
 }
 
 .contact__cta-title {
@@ -77,14 +91,23 @@
   border-radius: var(--radius-full);
   cursor: pointer;
   margin-top: 8px;
-  transition: opacity var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+  transition: all var(--transition-fast);
   width: fit-content;
+  position: relative;
+  overflow: hidden;
 }
 
 .contact__copy-btn:hover {
-  opacity: 0.88;
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
+}
+
+.contact__copy-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  animation: shimmer 3s infinite;
 }
 
 /* Contact links */

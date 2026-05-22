@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './Contact.css'
+import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const contactLinks = [
   {
@@ -43,6 +44,8 @@ const contactLinks = [
 
 export default function Contact() {
   const [copied, setCopied] = useState(false)
+  const headerRef = useScrollReveal()
+  const bodyRef = useScrollReveal({ threshold: 0.1 })
 
   const copyEmail = () => {
     navigator.clipboard.writeText('goodnewscode@gmail.com')
@@ -56,7 +59,7 @@ export default function Contact() {
       <div className="orb orb-pink contact__orb-2" />
       <div className="container">
         {/* Header */}
-        <div className="contact__header">
+        <div ref={headerRef} className="contact__header reveal">
           <div className="section-tag">✦ Get In Touch</div>
           <h2 className="section-title">
             Let's Work <span className="gradient-text">Together</span>
@@ -67,7 +70,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="contact__body">
+        <div ref={bodyRef} className="contact__body reveal">
           {/* Left: CTA card */}
           <div className="contact__cta glass-card">
             <div className="contact__cta-emoji">👋</div>

@@ -1,4 +1,5 @@
 import './Interest.css'
+import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const interests = [
   {
@@ -25,11 +26,14 @@ const interests = [
 ]
 
 export default function Interest() {
+  const headerRef = useScrollReveal()
+  const gridRef = useScrollReveal({ threshold: 0.1 })
+
   return (
     <section id="interest" className="interest">
       <div className="orb orb-purple interest__orb" />
       <div className="container">
-        <div className="interest__header">
+        <div ref={headerRef} className="interest__header reveal">
           <div className="section-tag">✦ What Drives Me</div>
           <h2 className="section-title">
             My <span className="gradient-text">Interests</span>
@@ -39,7 +43,7 @@ export default function Interest() {
           </p>
         </div>
 
-        <div className="interest__grid">
+        <div ref={gridRef} className="interest__grid reveal-stagger">
           {interests.map((item) => (
             <div key={item.title} className="interest-card glass-card">
               <div

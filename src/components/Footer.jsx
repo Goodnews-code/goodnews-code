@@ -1,12 +1,14 @@
 import './Footer.css'
+import { useScrollReveal } from '../hooks/useScrollReveal'
 
 export default function Footer() {
   const year = new Date().getFullYear()
+  const footerRef = useScrollReveal()
 
   return (
     <footer className="footer">
       <div className="footer__glow" />
-      <div className="container footer__inner">
+      <div ref={footerRef} className="container footer__inner reveal">
         {/* Logo + tagline */}
         <div className="footer__brand">
           <a href="#home" className="footer__logo">
@@ -66,9 +68,6 @@ export default function Footer() {
         <div className="container footer__bottom-inner">
           <p className="footer__copyright">
             &copy; {year} <span className="gradient-text">Goodnews</span>. All rights reserved.
-          </p>
-          <p className="footer__made-with">
-            Made with ❤️ in Nigeria
           </p>
         </div>
       </div>
