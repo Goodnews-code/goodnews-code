@@ -3,7 +3,7 @@ import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const highlights = [
   { icon: '🎓', label: 'Education', value: 'OAU Graduate — Surveying & Geoinformatics' },
-  { icon: '🚀', label: 'Program', value: 'Power Learn Project — Aug Cohort' },
+  { icon: '🐝', label: 'Hive XI', value: 'COO — Founding Team' },
   { icon: '📍', label: 'Location', value: 'Osun State, Nigeria' },
   { icon: '💼', label: 'Focus', value: 'Full-Stack Apps & E-Commerce' },
 ]
@@ -51,15 +51,15 @@ export default function About() {
             Hi, I'm <strong>Jesutofunmi Egbewale</strong> — a full-stack web developer shipping
             real products: printable merch platforms like <strong>Printiful</strong>, advertisable
             storefronts like <strong>AURA</strong>, logistics apps with live payments, and
-            high-fidelity redesigns. I'm a graduate of{' '}
-            <strong>Obafemi Awolowo University (OAU)</strong> in Surveying and Geoinformatics,
-            and a participant of the <strong>Power Learn Project</strong> August Cohort.
+            high-fidelity redesigns. I'm COO on the founding team at{' '}
+            <strong>Hive XI</strong>, a creative & technology agency, and a graduate of{' '}
+            <strong>Obafemi Awolowo University (OAU)</strong> in Surveying and Geoinformatics.
           </p>
 
           <p className="about__bio">
             I'm driven by the intersection of design and technology — building things that not only
             work flawlessly, but look and feel incredible. From Supabase-backed catalogs and Paystack
-            checkouts to admin dashboards and motion-rich UI, I love taking ideas into production.
+            checkouts to agency frontend/backend work and motion-rich UI, I love taking ideas into production.
           </p>
 
           {/* Highlights */}

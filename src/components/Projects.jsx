@@ -14,6 +14,17 @@ const projects = [
     badge: '✦ Printable',
   },
   {
+    title: 'Hive XI',
+    description:
+      'Creative & technology agency platform built as a team — hybrid-first site for AI automation, design, development, and branding. Contributed across the forked frontend and backend repos as COO on the founding team.',
+    tags: ['React', 'Vite', 'Team Project', 'Agency'],
+    image: '/Image/projects/hivexi.jpg',
+    live: 'https://thehivexi.com',
+    github: 'https://github.com/HiveXI',
+    featured: false,
+    badge: '✦ Team',
+  },
+  {
     title: 'AURA — Essential Objects',
     description:
       'Minimalist luxury e-commerce for curated essential objects. Real-time search and filters, persistent cart, JWT auth, checkout, and dark/light themes — a quiet, advertisable storefront built to sell the product through design.',
@@ -80,7 +91,7 @@ export default function Projects() {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="section-subtitle">
-            From printable merch storefronts to advertisable product experiences —
+            From Hive XI team builds to printable merch and advertisable storefronts —
             production apps with payments, admin tools, and polished UI.
           </p>
         </div>
