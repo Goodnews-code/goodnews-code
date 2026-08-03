@@ -5,24 +5,24 @@ const projects = [
   {
     title: 'Printiful Brand',
     description:
-      'Premium custom-wear and high-fidelity printing storefront with catalog store, admin dashboard, color/size variants, Paystack checkout, delivery tracking, Telegram alerts, and Resend receipts. Built for printable merch and brand campaigns.',
+      'Premium custom-wear and high-fidelity printing storefront — catalog store, admin dashboard, per-color product images, category-driven attributes, Paystack checkout with Lagos delivery fees, Telegram alerts, and Resend receipts. Built for printable merch and brand campaigns.',
     tags: ['Next.js', 'TypeScript', 'Supabase', 'Paystack', 'Tailwind'],
     image: '/Image/projects/printiful.jpg',
     live: 'https://shopprintiful.com',
     github: 'https://github.com/Goodnews-code/Printifulbrand',
     featured: true,
-    badge: '✦ Favorite',
+    badge: '✦ Printable',
   },
   {
     title: 'AURA — Essential Objects',
     description:
-      'Minimalist luxury e-commerce for curated essential objects. Real-time search and filters, persistent cart, JWT auth, order flow, and dark/light themes — designed as a quiet, advertisable product experience.',
+      'Minimalist luxury e-commerce for curated essential objects. Real-time search and filters, persistent cart, JWT auth, checkout, and dark/light themes — a quiet, advertisable storefront built to sell the product through design.',
     tags: ['Next.js', 'TypeScript', 'SQLite', 'Tailwind', 'JWT'],
     image: '/Image/projects/aura.jpg',
     live: 'https://e-commerce-self-chi-98.vercel.app',
     github: 'https://github.com/Goodnews-code/e-commerce',
     featured: false,
-    badge: '✦ Favorite',
+    badge: '✦ Advertisable',
   },
   {
     title: 'Safetafi Logistics',

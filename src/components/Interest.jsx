@@ -4,23 +4,23 @@ import { useScrollReveal } from '../hooks/useScrollReveal'
 const interests = [
   {
     icon: '🌐',
-    title: 'Web Development',
+    title: 'Full-Stack Product Apps',
     description:
-      'Building compelling, accessible web experiences is my core passion. From sleek frontends to powerful APIs, I love the full spectrum.',
+      'Shipping real storefronts and platforms — printable merch, advertisable catalogs, payments, admin tools, and motion-rich UI end to end.',
     color: '#00d4ff',
   },
   {
     icon: '🤖',
     title: 'Artificial Intelligence',
     description:
-      'AI is reshaping our world — from smart recommendation systems to generative models. I am excited to explore and contribute to this space.',
+      'AI is reshaping our world — from smart assistants and automation to generative models. I am excited to explore and contribute to this space.',
     color: '#8b5cf6',
   },
   {
     icon: '🗺️',
     title: 'Geospatial Technologies',
     description:
-      'As a Surveying & Geoinformatics student, I see enormous potential in combining GIS with web technologies to solve real-world problems.',
+      'As a Surveying & Geoinformatics graduate, I see enormous potential in combining GIS with web technologies to solve real-world problems.',
     color: '#22c55e',
   },
 ]
