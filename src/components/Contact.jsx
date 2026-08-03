@@ -76,8 +76,9 @@ export default function Contact() {
             <div className="contact__cta-emoji">👋</div>
             <h3 className="contact__cta-title">Ready to build something amazing?</h3>
             <p className="contact__cta-text">
-              I'm currently available for freelance work and collaborations.
-              Whether it's a full website, a landing page, or a web app — let's make it happen.
+              I'm currently available for freelance work and collaborations —
+              e-commerce, brand storefronts, logistics apps, redesigns, and more.
+              Let's ship something people remember.
             </p>
 
             <button className="contact__copy-btn" onClick={copyEmail}>

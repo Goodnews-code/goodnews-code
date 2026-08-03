@@ -2,14 +2,18 @@ import './Skills.css'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const skills = [
-  { name: 'HTML5', icon: '🌐', color: '#e34c26', level: 95 },
-  { name: 'CSS3', icon: '🎨', color: '#264de4', level: 90 },
-  { name: 'JavaScript', icon: '⚡', color: '#f7df1e', level: 80 },
-  { name: 'React', icon: '⚛️', color: '#61dafb', level: 70 },
+  { name: 'Next.js', icon: '▲', color: '#ffffff', level: 88 },
+  { name: 'React', icon: '⚛️', color: '#61dafb', level: 90 },
+  { name: 'TypeScript', icon: 'TS', color: '#3178c6', level: 82 },
+  { name: 'JavaScript', icon: '⚡', color: '#f7df1e', level: 88 },
+  { name: 'Tailwind CSS', icon: '🌀', color: '#38bdf8', level: 85 },
+  { name: 'Supabase', icon: '⬡', color: '#3ecf8e', level: 78 },
+  { name: 'HTML & CSS', icon: '🎨', color: '#e34c26', level: 95 },
+  { name: 'Git & GitHub', icon: '🔧', color: '#f05032', level: 88 },
+  { name: 'Paystack', icon: '💳', color: '#0ba4db', level: 75 },
   { name: 'Python', icon: '🐍', color: '#3776ab', level: 75 },
-  { name: 'Git & GitHub', icon: '🔧', color: '#f05032', level: 85 },
-  { name: 'Web Design', icon: '✦', color: '#8b5cf6', level: 92 },
-  { name: 'Responsive UI', icon: '📱', color: '#00d4ff', level: 88 },
+  { name: 'UI Design', icon: '✦', color: '#8b5cf6', level: 90 },
+  { name: 'Responsive UI', icon: '📱', color: '#00d4ff', level: 92 },
 ]
 
 export default function Skills() {
@@ -22,9 +26,12 @@ export default function Skills() {
       <div className="container">
         <div ref={headerRef} className="skills__header reveal">
           <div className="section-tag">✦ My Arsenal</div>
-          <h2 className="section-title">Skills & <span className="gradient-text">Technologies</span></h2>
+          <h2 className="section-title">
+            Skills & <span className="gradient-text">Technologies</span>
+          </h2>
           <p className="section-subtitle">
-            A curated set of tools and technologies I use to bring ideas to life.
+            The stack behind Printiful, AURA, Safetafi, and the rest of the work —
+            from polished storefronts to payment-ready backends.
           </p>
         </div>
 
