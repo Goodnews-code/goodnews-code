@@ -59,6 +59,7 @@ Goodnews-code/
 ## 🌟 Key Features
 
 - **Modern Glassmorphism UI:** A premium, translucent design with vibrant gradients and orbs.
+- **Updated Project Showcase:** Features production work including **Printiful Brand** (printable custom wear), **AURA** (advertisable luxury e-commerce), Safetafi logistics, and website redesigns.
 - **Vite + React:** Built for speed and optimal developer experience.
 - **Scroll Reveal Animations:** Interactive elements that fade and move into view as you scroll.
 - **Fully Responsive:** Optimized for mobile, tablet, and desktop viewing.

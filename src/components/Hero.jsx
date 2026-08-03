@@ -22,8 +22,9 @@ export default function Hero() {
           </h1>
 
           <p className="hero__description">
-            I craft beautiful, responsive websites and web applications with a passion for clean
-            code and stunning user experiences. Frontend & Backend specialist based in Osun State, Nigeria.
+            I build production web apps — printable merch storefronts, advertisable product
+            experiences, logistics platforms, and polished redesigns. Full-stack developer based
+            in Osun State, Nigeria.
           </p>
 
           <div className="hero__actions">
@@ -41,12 +42,12 @@ export default function Hero() {
           {/* Stats */}
           <div className="hero__stats">
             <div className="hero__stat">
-              <span className="hero__stat-num">3+</span>
+              <span className="hero__stat-num">8+</span>
               <span className="hero__stat-label">Projects Shipped</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-num">6+</span>
+              <span className="hero__stat-num">12+</span>
               <span className="hero__stat-label">Technologies</span>
             </div>
             <div className="hero__stat-divider" />
@@ -78,9 +79,9 @@ export default function Hero() {
             </div>
 
             {/* Floating tech badges */}
-            <div className="hero__floating-badge hero__floating-badge--1">React ⚡</div>
-            <div className="hero__floating-badge hero__floating-badge--2">CSS 🎨</div>
-            <div className="hero__floating-badge hero__floating-badge--3">Python 🐍</div>
+            <div className="hero__floating-badge hero__floating-badge--1">Next.js ▲</div>
+            <div className="hero__floating-badge hero__floating-badge--2">TypeScript</div>
+            <div className="hero__floating-badge hero__floating-badge--3">Supabase</div>
           </div>
         </div>
       </div>

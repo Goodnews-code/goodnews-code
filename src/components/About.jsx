@@ -2,10 +2,10 @@ import './About.css'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const highlights = [
-  { icon: '🎓', label: 'Education', value: 'OAU — Surveying & Geoinformatics' },
+  { icon: '🎓', label: 'Education', value: 'OAU Graduate — Surveying & Geoinformatics' },
   { icon: '🚀', label: 'Program', value: 'Power Learn Project — Aug Cohort' },
   { icon: '📍', label: 'Location', value: 'Osun State, Nigeria' },
-  { icon: '💼', label: 'Focus', value: 'Frontend & Backend Development' },
+  { icon: '💼', label: 'Focus', value: 'Full-Stack Apps & E-Commerce' },
 ]
 
 export default function About() {
@@ -48,16 +48,18 @@ export default function About() {
           </h2>
 
           <p className="about__bio">
-            Hi, I'm <strong>Jesutofunmi Egbewale</strong> — a passionate Web Developer with a focus on
-            crafting seamless frontend and backend experiences. I'm currently an undergraduate at 
-            <strong> Obafemi Awolowo University (OAU)</strong>, studying Surveying and Geoinformatics,
-            and a proud participant of the <strong>Power Learn Project</strong> August Cohort.
+            Hi, I'm <strong>Jesutofunmi Egbewale</strong> — a full-stack web developer shipping
+            real products: printable merch platforms like <strong>Printiful</strong>, advertisable
+            storefronts like <strong>AURA</strong>, logistics apps with live payments, and
+            high-fidelity redesigns. I'm a graduate of{' '}
+            <strong>Obafemi Awolowo University (OAU)</strong> in Surveying and Geoinformatics,
+            and a participant of the <strong>Power Learn Project</strong> August Cohort.
           </p>
 
           <p className="about__bio">
-            I'm driven by the intersection of design and technology — building things that not only 
-            work flawlessly, but look and feel incredible. I'm always eager to take on new challenges 
-            and work with passionate people ready to bring their ideas to life.
+            I'm driven by the intersection of design and technology — building things that not only
+            work flawlessly, but look and feel incredible. From Supabase-backed catalogs and Paystack
+            checkouts to admin dashboards and motion-rich UI, I love taking ideas into production.
           </p>
 
           {/* Highlights */}
